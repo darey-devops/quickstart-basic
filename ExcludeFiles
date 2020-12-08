@@ -1,5 +1,5 @@
 bootstrap/cache/*
-.env
+
 .idea
 .git*
 storage/framework/cache/*
