@@ -2,7 +2,6 @@ bootstrap/cache/*
 .env
 .idea
 .git*
-node_modules
 storage/framework/cache/*
 storage/framework/session/*
 storage/framework/views/*
