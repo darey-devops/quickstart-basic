@@ -1,15 +1,11 @@
-# Laravel Quickstart - Basic
-
-## Quick Installation
-
-    git clone https://github.com/laravel/quickstart-basic quickstart
-
-    cd quickstart
-
-    composer install
-
-    php artisan migrate
-
-    php artisan serve
-
-[Complete Tutorial](https://laravel.com/docs/5.2/quickstart)
+- Install php apache mysql
+- install composer
+- enable mod rewrite in apache
+- Download the files and extract them to /var/www/html
+- Edit default apache site to point to /var/www/html/public folder
+- mv .env.sample .env in /var/www/html
+- create mysql database and user
+- edit .env with the values from previous step
+- run composer install
+- run php artisan migrate
+- run php artisan db:seed
