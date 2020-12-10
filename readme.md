@@ -9,3 +9,5 @@
 - run composer install
 - run php artisan migrate
 - run php artisan db:seed
+- add ``` /opt/scanner/bin/sonar-scanner   -Dsonar.projectKey=php   -Dsonar.sources=app/.   -Dsonar.host.url=http://18.197.213.195:9003   -Dsonar.login=XXX for report```
+- add in sonar qube settings path for clover report 
